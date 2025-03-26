@@ -1,0 +1,119 @@
+/* Reset some basic styles */
+body,
+ul {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Body background color */
+body {
+  background-color: #f4f4f4;
+}
+
+/* Header styles */
+header {
+  background-color: #e6e6e6; /* Light Gray */
+  padding: 10px 0;
+  color: white;
+}
+
+/* Logo bar styles */
+.logo-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+}
+
+/* Logo styles - add shadow and subtle 3D effect */
+.logo {
+  height: 150px;
+  width: 150px;
+  background: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  filter: brightness(1.1); /* Slightly brighten the logo */
+}
+
+/* Hover effect for logo */
+.logo:hover {
+  transform: translateY(-5px); /* Lift the logo up slightly on hover */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow for 3D effect */
+}
+
+.banner-image {
+  width: 100%;
+  height: 50%;
+  object-fit: cover; /* Ensure the image covers the container area */
+}
+
+/* Navigation bar styles */
+.navigation-bar ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+  align-items: center; /* Align items vertically */
+}
+
+/* Navigation item styles */
+.navigation-bar ul li {
+  margin: 0;
+}
+
+/* Navigation link styles */
+.navigation-bar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+/* Hover effect on navigation links */
+.navigation-bar ul li a:hover {
+  background-color: #005e57;
+}
+
+/* Ensure logo and navigation bar fit together */
+.logo-bar .navigation-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* Footer styles - Updated to light black */
+footer {
+  background-color: #444; /* Light black shade */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Responsive Design: Adjust for smaller screens */
+@media (max-width: 768px) {
+  .logo-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navigation-bar ul {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%; /* Ensure full width in vertical layout */
+  }
+
+  .navigation-bar ul li a {
+    padding: 10px 20px;
+  }
+}

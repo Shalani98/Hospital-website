@@ -1,0 +1,89 @@
+{
+  "time": [
+    {
+      "start_time": "09:00 AM",
+      "end_time": "09:15 AM",
+      "status": "Available"
+    },
+    {
+      "start_time": "09:20 AM",
+      "end_time": "09:35 AM",
+      "status": "Available"
+    },
+    {
+      "start_time": "09:40 AM",
+      "end_time": "09:55 AM",
+      "status": "Available"
+    },
+    {
+      "start_time": "10:00 AM",
+      "end_time": "10:15 AM",
+      "status": "Available"
+    },
+    {
+      "start_time": "10:20 AM",
+      "end_time": "10:35 AM",
+      "status": "Available"
+    },
+    {
+      "start_time": "10:40 AM",
+      "end_time": "10:55 AM",
+      "status": "Available"
+    },
+    {
+      "start_time": "11:05 AM",
+      "end_time": "11:20 AM",
+      "status": "Available"
+    },
+    {
+      "start_time": "11:25 AM",
+      "end_time": "11:40 AM",
+      "status": "Available"
+    },
+    {
+      "start_time": "11:45 AM",
+      "end_time": "12:00 PM",
+      "status": "Available"
+    },
+    {
+      "start_time": "12:05 PM",
+      "end_time": "12:20 PM",
+      "status": "Available"
+    },
+    {
+      "start_time": "12:25 PM",
+      "end_time": "12:40 PM",
+      "status": "Available"
+    },
+    {
+      "start_time": "12:45 PM",
+      "end_time": "01:00 PM",
+      "status": "Available"
+    },
+    {
+      "start_time": "01:30 PM",
+      "end_time": "01:45 PM",
+      "status": "Available"
+    },
+    {
+      "start_time": "01:50 PM",
+      "end_time": "02:05 PM",
+      "status": "Available"
+    },
+    {
+      "start_time": "02:10PM",
+      "end_time": "02:25 PM",
+      "status": "Available"
+    },
+    {
+      "start_time": "02:30PM",
+      "end_time": "02:45 PM",
+      "status": "Available"
+    },
+    {
+      "start_time": "02:50PM",
+      "end_time": "03:05 PM",
+      "status": "Available"
+    }
+  ]
+}
