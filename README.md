@@ -1,4 +1,4 @@
-Here’s a README file based on the features you’ve outlined for **CareCompassHospital**:
+
 
 ---
 
