@@ -39,8 +39,9 @@
 
 ## Technologies Used
 
-- **Frontend:** HTML, CSS, JavaScript (React.js, or Vue.js if applicable)  
-- **Backend:** Node.js, PHP, or Python (Django/Flask)  
+- **Frontend:** HTML, CSS, JavaScript
+- **Libraries:** Bootstrap
+- **Backend:** PHP
 - **Database:** MySQL
-- **Other Tools:** Firebase for real-time features, bcrypt for password hashing
+- **Other Tools:**  bcrypt for password hashing
 
